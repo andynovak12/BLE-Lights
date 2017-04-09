@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothLEDStrip/AppDelegate.swift"
+            timestampString = "512619914.341356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "application(_:continue:restorationHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothLEDStrip.AppDelegate.application (__ObjC.UIApplication, continue : __ObjC.NSUserActivity, restorationHandler : (Swift.Optional&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; ()) -&gt; Swift.Bool"
+                  moduleName = "BluetoothLEDStrip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Andy/Development/code/BluetoothLEDStrip/BluetoothLEDStrip/AppDelegate.swift"
+                  timestampString = "512620418.063829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothLEDStrip.AppDelegate.application (__ObjC.UIApplication, continue : __ObjC.NSUserActivity, restorationHandler : (Swift.Optional&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; ()) -&gt; Swift.Bool"
+                  moduleName = "BluetoothLEDStrip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Andy/Development/code/BluetoothLEDStrip/BluetoothLEDStrip/AppDelegate.swift"
+                  timestampString = "512620418.065136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
