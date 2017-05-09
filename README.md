@@ -6,7 +6,7 @@
 Contains the functions to control the LED strip
 
 #### alarm_settings.txt
-Acts as a datastore where:
+Acts as a datastore. Adjust these numbers to fit your preference. 
 
 1st line: Alarm time (empty for no alarm)
 
