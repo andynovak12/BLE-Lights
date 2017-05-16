@@ -7,6 +7,7 @@ target 'BluetoothLEDStrip' do
 
   # Pods for BluetoothLEDStrip
   pod 'ReactiveSwift', '~> 1.1'
+  pod 'ReactiveCocoa', '~> 5.0.0'
   pod 'APESuperHUD', '~> 1.1'
 
 end

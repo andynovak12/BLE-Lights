@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--First View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="BluetoothLEDStrip" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,13 +22,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="i9A-6l-0Fb">
-                                <rect key="frame" x="37" y="117" width="300" height="31"/>
+                                <rect key="frame" x="37" y="197" width="300" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.98586467420000001" green="0.98124015870000003" blue="0.65869514309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.98586467418028279" green="0.98124015869458392" blue="0.65869514312684929" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="brightnessSliderValueChanged:" destination="9pv-A4-QxB" eventType="valueChanged" id="HVC-Ua-kVd"/>
-                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="Rhr-IZ-Fho">
                                 <rect key="frame" x="37" y="331" width="300" height="31"/>
@@ -57,16 +54,31 @@
                                     <action selector="blueSlider:" destination="9pv-A4-QxB" eventType="valueChanged" id="jgO-i4-fIz"/>
                                 </connections>
                             </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WIJ-pD-AmO">
+                                <rect key="frame" x="163" y="46" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" red="0.070588235289999995" green="0.08235294118" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="0.98586467420000001" green="0.98124015870000003" blue="0.65869514309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="" image="slider" id="acW-dT-cKf">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="blueSlider" destination="LSA-kt-Onw" id="6DT-JZ-wkL"/>
+                        <outlet property="brightnessSlider" destination="i9A-6l-0Fb" id="btS-QU-Sq1"/>
+                        <outlet property="greenSlider" destination="RcD-uz-6ub" id="ibA-2M-BJq"/>
+                        <outlet property="powerSwitch" destination="WIJ-pD-AmO" id="hUb-m5-jft"/>
+                        <outlet property="redSlider" destination="Rhr-IZ-Fho" id="mSR-rd-DRD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
         </scene>
-        <!--Item-->
+        <!--Third View Controller-->
         <scene sceneID="N7T-cn-GTb">
             <objects>
                 <viewController id="9lu-z9-SBE" customClass="ThirdViewController" customModule="BluetoothLEDStrip" customModuleProvider="target" sceneMemberID="viewController">
@@ -111,7 +123,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="pbN-ff-qQv"/>
+                    <tabBarItem key="tabBarItem" title="" image="experimental" id="pbN-ff-qQv">
+                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="magneticHeadingLabel" destination="w66-G4-DY4" id="cCC-Vf-Yis"/>
                         <outlet property="rgbLabel" destination="QFk-Jp-SDt" id="aBn-mz-h4i"/>
@@ -123,7 +137,7 @@
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="1088.9055472263869"/>
         </scene>
-        <!--Second-->
+        <!--Second View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="BluetoothLEDStrip" customModuleProvider="target" sceneMemberID="viewController">
@@ -197,7 +211,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="" image="alarm-icon" id="cPa-gy-q4n">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="alarmPicker" destination="zlD-Xy-gBP" id="kKY-DX-cKh"/>
                         <outlet property="alarmTimeLabel" destination="HPM-eo-fZc" id="uxE-RJ-hcA"/>
@@ -231,7 +247,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="alarm-icon" width="30" height="30"/>
+        <image name="experimental" width="40" height="40"/>
+        <image name="slider" width="30" height="30"/>
     </resources>
 </document>

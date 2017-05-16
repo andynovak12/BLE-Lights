@@ -114,7 +114,7 @@ extension BluetoothManager: CBCentralManagerDelegate {
 	}
 
 	func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
-		print("Discovered: \(peripheral.name) / RSSI: \(RSSI)")
+		print("Discovered: \(String(describing: peripheral.name)) / RSSI: \(RSSI)")
 		self.peripheral = peripheral
 		self.manager.stopScan()
 		self.manager.connect(peripheral, options: nil)
@@ -139,7 +139,7 @@ extension BluetoothManager: CBCentralManagerDelegate {
 
 extension BluetoothManager: CBPeripheralDelegate {
 	func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: Error?) {
-		print("did discover services: \(peripheral.services)")
+		print("did discover services: \(String(describing: peripheral.services))")
 		if let services = peripheral.services {
 			for service in services {
 				self.peripheral!.discoverCharacteristics(nil, for: service)

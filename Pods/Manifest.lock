@@ -1,18 +1,22 @@
 PODS:
   - APESuperHUD (1.1.2)
+  - ReactiveCocoa (5.0.1):
+    - ReactiveSwift (~> 1.1)
   - ReactiveSwift (1.1.0):
     - Result (~> 3.1)
   - Result (3.2.1)
 
 DEPENDENCIES:
   - APESuperHUD (~> 1.1)
+  - ReactiveCocoa (~> 5.0.0)
   - ReactiveSwift (~> 1.1)
 
 SPEC CHECKSUMS:
   APESuperHUD: 9c7ea17cea21b4a9212f1c43810b0c8b9ee585a6
+  ReactiveCocoa: f577006aa6c7b0b08020109ebaae3b77ada00adc
   ReactiveSwift: 2f4e4a02e5a5c87ea63f5fe667163ce2a67cbb57
   Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
 
-PODFILE CHECKSUM: 0e7cfb1688412c3369d7299a95e6f1c5b38bb376
+PODFILE CHECKSUM: cfef372327b0b05167121e740469cfaec01cc02b
 
 COCOAPODS: 1.1.1
