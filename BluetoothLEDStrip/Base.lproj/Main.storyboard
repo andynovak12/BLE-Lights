@@ -32,27 +32,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.86911272319999999" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="0.98586467418028279" green="0.091249289740802417" blue="0.020157824012780861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="redSlider:" destination="9pv-A4-QxB" eventType="valueChanged" id="zan-Vj-Vcf"/>
-                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="RcD-uz-6ub">
                                 <rect key="frame" x="37" y="402" width="300" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.31550227130000003" green="0.94901960780000005" blue="0.098967691770000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.098804028008492917" green="0.98586467418028279" blue="0.018348245829938343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="greenSlider:" destination="9pv-A4-QxB" eventType="valueChanged" id="WEp-Dz-PXW"/>
-                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="LSA-kt-Onw">
                                 <rect key="frame" x="37" y="480" width="300" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.048823154119999997" green="0.1356321301" blue="0.98586467420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.048823154117891246" green="0.1356321300755009" blue="0.98586467418028279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="blueSlider:" destination="9pv-A4-QxB" eventType="valueChanged" id="jgO-i4-fIz"/>
-                                </connections>
                             </slider>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WIJ-pD-AmO">
                                 <rect key="frame" x="163" y="46" width="51" height="31"/>

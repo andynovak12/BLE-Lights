@@ -18,19 +18,28 @@ class FirstViewController: UIViewController {
 	@IBOutlet weak var greenSlider: UISlider!
 	@IBOutlet weak var blueSlider: UISlider!
 
-	private var brightnessValue = MutableProperty(0)
-	private var previousBrightnessValue = 0
-	private var redValue: Int = 0
-	private var greenValue: Int = 0
-	private var blueValue: Int = 0
+	private var brightnessValue =	MutableProperty(0)
+	private var redValue =			MutableProperty(0)
+	private var greenValue =		MutableProperty(0)
+	private var blueValue =			MutableProperty(0)
+	private var previousBrightnessValue =	0
+	private var previousRedValue =			0
+	private var previousGreenValue =		0
+	private var previousBlueValue =			0
 
-	private let sliderThreshold = 5
+	private let sliderThreshold =	5
+	private let brightnessOnValue = 50
+	private let colorsOnValue =		50
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
 		self.powerSwitch.addTarget(self, action: #selector(powerSwitchTappedHandler(notification:)), for: UIControlEvents.touchUpInside)
 		self.brightnessSlider.addTarget(self, action: #selector(brightnessSliderHandler(notification:)), for: UIControlEvents.touchDragInside)
+		self.redSlider.addTarget(self, action: #selector(redSliderHandler(notification:)), for: UIControlEvents.touchDragInside)
+		self.greenSlider.addTarget(self, action: #selector(greenSliderHandler(notification:)), for: UIControlEvents.touchDragInside)
+		self.blueSlider.addTarget(self, action: #selector(blueSliderHandler(notification:)), for: UIControlEvents.touchDragInside)
+
 		self.brightnessValue.signal.observeValues { brightnessValue in
 			self.powerSwitch.isOn = brightnessValue > 0
 			self.brightnessSlider.value = Float(brightnessValue)
@@ -39,43 +48,66 @@ class FirstViewController: UIViewController {
 				self.previousBrightnessValue = brightnessValue
 			} else if abs(self.previousBrightnessValue - brightnessValue) > self.sliderThreshold {
 				BluetoothManager.sharedInstance.setBrightness(value: brightnessValue)
-				if self.redValue == 0, self.greenValue == 0, self.blueValue == 0 {
-					BluetoothManager.sharedInstance.setColor(red: 50, green: 50, blue: 50)
+				if self.redValue.value == 0, self.greenValue.value == 0, self.blueValue.value == 0 {
+					self.redValue.value = self.colorsOnValue
+					self.greenValue.value = self.colorsOnValue
+					self.blueValue.value = self.colorsOnValue
+					self.previousRedValue = self.redValue.value
+					self.previousGreenValue = self.greenValue.value
+					self.previousBlueValue = self.blueValue.value
+
+					BluetoothManager.sharedInstance.setColor(red: self.previousRedValue, green: self.previousGreenValue, blue: self.previousBlueValue)
 				}
 				self.previousBrightnessValue = brightnessValue
 			}
 		}
+
+		let colorChangedSignal = Signal.combineLatest(self.redValue.signal, self.greenValue.signal, self.blueValue.signal)
+		colorChangedSignal.observeValues { red, green, blue in
+			self.redSlider.value = Float(red)
+			self.greenSlider.value = Float(green)
+			self.blueSlider.value = Float(blue)
+
+			var sendNewColorValue = false
+
+			if abs(red - self.previousRedValue) > self.sliderThreshold {
+				self.previousRedValue = red
+				sendNewColorValue = true
+			}
+			if abs(green - self.previousGreenValue) > self.sliderThreshold {
+				self.previousGreenValue = green
+				sendNewColorValue = true
+			}
+			if abs(blue - self.previousBlueValue) > self.sliderThreshold {
+				self.previousBlueValue = blue
+				sendNewColorValue = true
+			}
+			if sendNewColorValue {
+				BluetoothManager.sharedInstance.setColor(red: self.previousRedValue, green: self.previousGreenValue, blue: self.previousBlueValue)
+			}
+		}
+
 	}
 
 	func powerSwitchTappedHandler(notification: UISwitch) {
 		if !self.powerSwitch.isOn {
 			self.brightnessValue.value = 0
 		} else {
-			self.brightnessValue.value = 50
+			self.brightnessValue.value = self.brightnessOnValue
 		}
 	}
 
 	func brightnessSliderHandler(notification: UISlider) {
 		self.brightnessValue.value = Int(notification.value)
 	}
-
-	@IBAction func redSlider(_ sender: UISlider) {
-		if abs(Int(sender.value) - self.redValue) > self.sliderThreshold {
-			self.redValue = Int(sender.value)
-			BluetoothManager.sharedInstance.setColor(red: self.redValue, green: self.greenValue, blue: self.blueValue)
-		}
+	func redSliderHandler(notification: UISlider) {
+		self.redValue.value = Int(notification.value)
 	}
-	@IBAction func greenSlider(_ sender: UISlider) {
-		if abs(Int(sender.value) - self.greenValue) > self.sliderThreshold {
-			self.greenValue = Int(sender.value)
-			BluetoothManager.sharedInstance.setColor(red: self.redValue, green: self.greenValue, blue: self.blueValue)
-		}
+	func greenSliderHandler(notification: UISlider) {
+		self.greenValue.value = Int(notification.value)
 	}
-	@IBAction func blueSlider(_ sender: UISlider) {
-		if abs(Int(sender.value) - self.blueValue) > self.sliderThreshold {
-			self.blueValue = Int(sender.value)
-			BluetoothManager.sharedInstance.setColor(red: self.redValue, green: self.greenValue, blue: self.blueValue)
-		}
+	func blueSliderHandler(notification: UISlider) {
+		self.blueValue.value = Int(notification.value)
 	}
 }
 
