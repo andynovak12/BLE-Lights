@@ -25,7 +25,8 @@
                                 <rect key="frame" x="37" y="197" width="300" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.98586467420000001" green="0.98124015870000003" blue="0.65869514309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="thumbTintColor" red="0.98586467418028279" green="0.98124015869458392" blue="0.65869514312684929" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="minimumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="thumbTintColor" red="0.98431372549019602" green="0.98039215686274506" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="Rhr-IZ-Fho">
                                 <rect key="frame" x="37" y="331" width="300" height="31"/>
@@ -45,14 +46,19 @@
                                 <color key="tintColor" red="0.048823154119999997" green="0.1356321301" blue="0.98586467420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.048823154117891246" green="0.1356321300755009" blue="0.98586467418028279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </slider>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WIJ-pD-AmO">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WIJ-pD-AmO" customClass="RAMPaperSwitch" customModule="RAMPaperSwitch">
                                 <rect key="frame" x="163" y="46" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.070588235289999995" green="0.08235294118" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="thumbTintColor" red="0.98586467420000001" green="0.98124015870000003" blue="0.65869514309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.98431372549019602" green="0.98039215686274506" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="0.98431372549999996" green="0.98039215690000003" blue="0.6588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </switch>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.85315578494753153" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="slider" id="acW-dT-cKf">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>

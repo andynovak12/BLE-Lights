@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RAMPaperSwitch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ReactiveCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>28AFD4382BADF45811B2933B404C6470</key>
+		<key>011B742AEF4E0967F6BFD6283679E217</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,17 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>41BDCF5A05F80CAC7771394A35A9F403</key>
+		<key>38D0579CCF8CDE8A886216A1005E9385</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>57DDA8C02B3FFDC5A940BBAFD11C1D45</key>
+		<key>6AB373B62751BCE9A242DB0CF31D7E0E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9D3CB2A4661D0CA8212A0EE9276FCF09</key>
+		<key>A70D0EA26F38BF90C79718DE741A5A88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B623DEFE69A6F55BE63E389A0289C568</key>
 		<dict>
 			<key>primary</key>
 			<true/>

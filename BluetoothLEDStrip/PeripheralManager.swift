@@ -27,7 +27,7 @@ class PeripheralManager: NSObject {
 
 extension PeripheralManager: CBPeripheralDelegate {
 	func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: Error?) {
-		print("did discover services: \(peripheral.services)")
+		print("did discover services: \(String(describing: peripheral.services))")
 		if let services = peripheral.services {
 			for service in services {
 				self.peripheral.discoverCharacteristics(nil, for: service)

@@ -9,10 +9,11 @@
 import UIKit
 import ReactiveSwift
 import ReactiveCocoa
+import RAMPaperSwitch
 
 class FirstViewController: UIViewController {
 
-	@IBOutlet weak var powerSwitch: UISwitch!
+	@IBOutlet weak var powerSwitch: RAMPaperSwitch!
 	@IBOutlet weak var brightnessSlider: UISlider!
 	@IBOutlet weak var redSlider: UISlider!
 	@IBOutlet weak var greenSlider: UISlider!
@@ -87,6 +88,10 @@ class FirstViewController: UIViewController {
 			}
 		}
 
+		self.powerSwitch.animationDidStartClosure = { (onAnimation: Bool) in
+			self.brightnessSlider.thumbTintColor = onAnimation ? UIColor.black : UIColor.yellow
+			self.powerSwitch.thumbTintColor = onAnimation ? UIColor.black : UIColor.yellow
+		}
 	}
 
 	func powerSwitchTappedHandler(notification: UISwitch) {

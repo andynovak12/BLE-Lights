@@ -35,7 +35,7 @@ class Motion: NSObject {
 			if(error == nil) {
 				self.handleDeviceMotionUpdate(motionData!)
 			} else {
-				print("Error: \(error)")
+				print("Error: \(String(describing: error))")
 			}
 		}
 	}

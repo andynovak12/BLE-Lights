@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28AFD4382BADF45811B2933B404C6470"
+               BlueprintIdentifier = "38D0579CCF8CDE8A886216A1005E9385"
                BuildableName = "Pods_BluetoothLEDStrip.framework"
                BlueprintName = "Pods-BluetoothLEDStrip"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28AFD4382BADF45811B2933B404C6470"
+            BlueprintIdentifier = "38D0579CCF8CDE8A886216A1005E9385"
             BuildableName = "Pods_BluetoothLEDStrip.framework"
             BlueprintName = "Pods-BluetoothLEDStrip"
             ReferencedContainer = "container:Pods.xcodeproj">
