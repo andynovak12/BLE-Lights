@@ -18,7 +18,9 @@ import Intents
 // "Search for messages in <myApp>"
 
 class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessagesIntentHandling, INSetMessageAttributeIntentHandling {
-    
+
+	var alarmTime: (Int, Int)? = nil
+
     override func handler(for intent: INIntent) -> Any {
         // This is the default implementation.  If you want different objects to handle different intents,
         // you can override this and return the handler you want for that particular intent.
@@ -30,9 +32,40 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
     
     // Implement resolution methods to provide additional information about your intent (optional).
     func resolveRecipients(forSendMessage intent: INSendMessageIntent, with completion: @escaping ([INPersonResolutionResult]) -> Void) {
+//		guard let content = intent.content else {
+//			// TODO: handle no content
+//			print("No Content")
+//			return
+//		}
+		if let content = intent.content {
+			let times = extractNumbers(from: content)
+			if times.count == 1 || times.count == 2 {
+				print("got a number \(times.first!) \(String(describing: times.get(index: 1)))")
+				var time = self.getTime(from: times.first!, secondNumber: times.get(index: 1))
+				if intent.content?.contains("PM") ?? false {
+					time.0 += 12
+				}
+				guard self.isValidated(hour: time.0, minute: time.1) else {
+					// TODO: request better message
+					print("Error: unformatted time")
+					return
+				}
+				print("got a time! \(time)")
+				self.alarmTime = time
+			} else if times.isEmpty {
+				// TODO: "which time do you want to set the alarm for"
+				print("Couldn't get a time")
+			} else {
+				// TODO: "select which time do you want to set your alarm"
+				print("there were too many times \(times)")
+			}
+		}
+		let dummyRecipient = INPerson(personHandle: INPersonHandle(value: "Person value", type: .unknown), nameComponents: nil, displayName: nil, image: nil, contactIdentifier: nil, customIdentifier: nil)
+		completion([INPersonResolutionResult.success(with: dummyRecipient)])
+/*
         if let recipients = intent.recipients {
             
-            // If no recipients were provided we'll need to prompt for a value.
+              // If no recipients were provided we'll need to prompt for a value.
             if recipients.count == 0 {
                 completion([INPersonResolutionResult.needsValue()])
                 return
@@ -61,11 +94,17 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
             }
             completion(resolutionResults)
         }
+*/
     }
     
     func resolveContent(forSendMessage intent: INSendMessageIntent, with completion: @escaping (INStringResolutionResult) -> Void) {
         if let text = intent.content, !text.isEmpty {
-            completion(INStringResolutionResult.success(with: text))
+			guard let alarmTime = self.alarmTime else {
+				completion(INStringResolutionResult.success(with: "Sorry, I was unable to understand your alarm time."))
+				return
+			}
+			completion(INStringResolutionResult.success(with: "Setting Alarm to \(alarmTime.0):\(alarmTime.1)"))
+//			completion(INStringResolutionResult.success(with: text))
         } else {
             completion(INStringResolutionResult.needsValue())
         }
@@ -88,6 +127,7 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
         
         let userActivity = NSUserActivity(activityType: NSStringFromClass(INSendMessageIntent.self))
         let response = INSendMessageIntentResponse(code: .success, userActivity: userActivity)
+		// TODO: HERE IS WHERE WE SEND THE COMMAND TO THE LIGHTS
         completion(response)
     }
     
@@ -120,5 +160,44 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
         let response = INSetMessageAttributeIntentResponse(code: .success, userActivity: userActivity)
         completion(response)
     }
+
+	// MARK: Helper functions
+	func extractNumbers(from string: String) -> [Int] {
+		let component = string.components(separatedBy: NSCharacterSet.decimalDigits.inverted)
+		return component.filter({ $0 != "" }).flatMap { Int($0) }
+	}
+
+	func getTime(from firstNumber: Int, secondNumber: Int?) -> (Int, Int) {
+		// eight twenty could be [8, 20] or [820]
+		let hour: Int
+		let minute: Int
+		if firstNumber > 24 {
+			hour = firstNumber / 100
+			minute = firstNumber % 100
+		} else {
+			hour = firstNumber
+			minute = secondNumber ?? 0
+		}
+		return (hour, minute)
+	}
+
+	func isValidated(hour: Int, minute: Int) -> Bool {
+		guard hour < 24, hour > 0, minute < 60, minute >= 0 else {
+			return false
+		}
+		return true
+	}
 }
 
+// from: http://stackoverflow.com/questions/25329186/safe-bounds-checked-array-lookup-in-swift-through-optional-bindings
+extension Array {
+	// Safely lookup an index that might be out of bounds,
+	// returning nil if it does not exist
+	func get(index: Int) -> Element? {
+		if 0 <= index && index < count {
+			return self[index]
+		} else {
+			return nil
+		}
+	}
+}
