@@ -18,7 +18,6 @@
 		A1BEB0271E7ED01600355658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BEB0261E7ED01600355658 /* Assets.xcassets */; };
 		A1BEB02A1E7ED01600355658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BEB0281E7ED01600355658 /* LaunchScreen.storyboard */; };
 		A1BEB0321E7ED0D100355658 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEB0311E7ED0D100355658 /* BluetoothManager.swift */; };
-		A1BEB0341E7EE4C400355658 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEB0331E7EE4C400355658 /* PeripheralManager.swift */; };
 		A1BEB0361E7EEEC500355658 /* PeripheralConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEB0351E7EEEC500355658 /* PeripheralConstants.swift */; };
 		A1BEB0381E7F038A00355658 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEB0371E7F038A00355658 /* Compass.swift */; };
 		A1F470B21E8701AA00461F71 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F470B11E8701AA00461F71 /* ThirdViewController.swift */; };
@@ -68,7 +67,6 @@
 		A1BEB0291E7ED01600355658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1BEB02B1E7ED01600355658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1BEB0311E7ED0D100355658 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
-		A1BEB0331E7EE4C400355658 /* PeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
 		A1BEB0351E7EEEC500355658 /* PeripheralConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralConstants.swift; sourceTree = "<group>"; };
 		A1BEB0371E7F038A00355658 /* Compass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compass.swift; sourceTree = "<group>"; };
 		A1F470B11E8701AA00461F71 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 				A1BEB0261E7ED01600355658 /* Assets.xcassets */,
 				A1BEB0281E7ED01600355658 /* LaunchScreen.storyboard */,
 				A1BEB02B1E7ED01600355658 /* Info.plist */,
-				A1BEB0331E7EE4C400355658 /* PeripheralManager.swift */,
 			);
 			path = BluetoothLEDStrip;
 			sourceTree = "<group>";
@@ -340,7 +337,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1BEB0341E7EE4C400355658 /* PeripheralManager.swift in Sources */,
 				A1BEB0361E7EEEC500355658 /* PeripheralConstants.swift in Sources */,
 				A1BEB0221E7ED01600355658 /* SecondViewController.swift in Sources */,
 				A1BEB01E1E7ED01600355658 /* AppDelegate.swift in Sources */,
