@@ -8,7 +8,7 @@
 *.perspective
 *.perspectivev3
 *.pbxuser
-xcuserdata
+xcuserdata/
 *.xccheckout
 
 # Build products
