@@ -22,6 +22,9 @@
 		A1BEB0381E7F038A00355658 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEB0371E7F038A00355658 /* Compass.swift */; };
 		A1F470B21E8701AA00461F71 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F470B11E8701AA00461F71 /* ThirdViewController.swift */; };
 		A1F470B41E870A8F00461F71 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F470B31E870A8F00461F71 /* Motion.swift */; };
+		A1F6685C1ED08E710010AF67 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEB0311E7ED0D100355658 /* BluetoothManager.swift */; };
+		A1F6685E1ED0906A0010AF67 /* PeripheralConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEB0351E7EEEC500355658 /* PeripheralConstants.swift */; };
+		EC92DC2EC9AB0EB6EFBA3384 /* Pods_BluetoothLEDStripIntentionsTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31D5D5A243D39F3830149E5 /* Pods_BluetoothLEDStripIntentionsTarget.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +54,14 @@
 /* Begin PBXFileReference section */
 		25AA7F5FEC21A83886C2D1CB /* Pods-BluetoothLEDStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothLEDStrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothLEDStrip/Pods-BluetoothLEDStrip.debug.xcconfig"; sourceTree = "<group>"; };
 		29061A9757321B956EC55646 /* Pods_BluetoothLEDStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluetoothLEDStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		398A27E375553BDBCE1C35F2 /* Pods-BluetoothLEDStripIntentionsTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothLEDStripIntentionsTarget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothLEDStripIntentionsTarget/Pods-BluetoothLEDStripIntentionsTarget.debug.xcconfig"; sourceTree = "<group>"; };
 		448CA8DD6D2CC830430C9B48 /* Pods-BluetoothLEDStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothLEDStrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothLEDStrip/Pods-BluetoothLEDStrip.release.xcconfig"; sourceTree = "<group>"; };
 		A113FA021E8DE2A600B24090 /* BluetoothLEDStrip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BluetoothLEDStrip.entitlements; sourceTree = "<group>"; };
 		A113FA071E8DE35E00B24090 /* BluetoothLEDStripIntentionsTarget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BluetoothLEDStripIntentionsTarget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A113FA091E8DE35E00B24090 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		A113FA0B1E8DE35E00B24090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A113FA151E8DF3DB00B24090 /* BluetoothLEDStripIntentionsTarget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BluetoothLEDStripIntentionsTarget.entitlements; sourceTree = "<group>"; };
+		A13428486F4B3C9A6E743DDF /* Pods-BluetoothLEDStripIntentionsTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothLEDStripIntentionsTarget.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothLEDStripIntentionsTarget/Pods-BluetoothLEDStripIntentionsTarget.release.xcconfig"; sourceTree = "<group>"; };
 		A1750DCA1E872A5400559BDE /* MyTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
 		A1BEB01A1E7ED01600355658 /* BluetoothLEDStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothLEDStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BEB01D1E7ED01600355658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +76,7 @@
 		A1BEB0371E7F038A00355658 /* Compass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compass.swift; sourceTree = "<group>"; };
 		A1F470B11E8701AA00461F71 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		A1F470B31E870A8F00461F71 /* Motion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		E31D5D5A243D39F3830149E5 /* Pods_BluetoothLEDStripIntentionsTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluetoothLEDStripIntentionsTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC92DC2EC9AB0EB6EFBA3384 /* Pods_BluetoothLEDStripIntentionsTarget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,10 +138,7 @@
 				A1F470B31E870A8F00461F71 /* Motion.swift */,
 				A1BEB0311E7ED0D100355658 /* BluetoothManager.swift */,
 				A1BEB0351E7EEEC500355658 /* PeripheralConstants.swift */,
-				A1BEB01F1E7ED01600355658 /* FirstViewController.swift */,
-				A1BEB0211E7ED01600355658 /* SecondViewController.swift */,
-				A1F470B11E8701AA00461F71 /* ThirdViewController.swift */,
-				A1750DCA1E872A5400559BDE /* MyTabBarViewController.swift */,
+				A1F6685D1ED08E960010AF67 /* View Controllers */,
 				A1BEB0231E7ED01600355658 /* Main.storyboard */,
 				A1BEB0261E7ED01600355658 /* Assets.xcassets */,
 				A1BEB0281E7ED01600355658 /* LaunchScreen.storyboard */,
@@ -143,11 +147,24 @@
 			path = BluetoothLEDStrip;
 			sourceTree = "<group>";
 		};
+		A1F6685D1ED08E960010AF67 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1BEB01F1E7ED01600355658 /* FirstViewController.swift */,
+				A1BEB0211E7ED01600355658 /* SecondViewController.swift */,
+				A1F470B11E8701AA00461F71 /* ThirdViewController.swift */,
+				A1750DCA1E872A5400559BDE /* MyTabBarViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		ACCE5559A50AA858176B5630 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				25AA7F5FEC21A83886C2D1CB /* Pods-BluetoothLEDStrip.debug.xcconfig */,
 				448CA8DD6D2CC830430C9B48 /* Pods-BluetoothLEDStrip.release.xcconfig */,
+				398A27E375553BDBCE1C35F2 /* Pods-BluetoothLEDStripIntentionsTarget.debug.xcconfig */,
+				A13428486F4B3C9A6E743DDF /* Pods-BluetoothLEDStripIntentionsTarget.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -156,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				29061A9757321B956EC55646 /* Pods_BluetoothLEDStrip.framework */,
+				E31D5D5A243D39F3830149E5 /* Pods_BluetoothLEDStripIntentionsTarget.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A113FA0F1E8DE35F00B24090 /* Build configuration list for PBXNativeTarget "BluetoothLEDStripIntentionsTarget" */;
 			buildPhases = (
+				242298CCB5E037EF903226E6 /* [CP] Check Pods Manifest.lock */,
 				A113FA031E8DE35E00B24090 /* Sources */,
 				A113FA041E8DE35E00B24090 /* Frameworks */,
 				A113FA051E8DE35E00B24090 /* Resources */,
+				49443A529905A77101B5E1CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +297,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		242298CCB5E037EF903226E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		33210F8C965424A3FB16FBA7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,6 +325,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49443A529905A77101B5E1CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluetoothLEDStripIntentionsTarget/Pods-BluetoothLEDStripIntentionsTarget-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		65C92BE6CA30ED47191374FA /* [CP] Embed Pods Frameworks */ = {
@@ -329,6 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F6685C1ED08E710010AF67 /* BluetoothManager.swift in Sources */,
+				A1F6685E1ED0906A0010AF67 /* PeripheralConstants.swift in Sources */,
 				A113FA0A1E8DE35E00B24090 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,9 +433,11 @@
 /* Begin XCBuildConfiguration section */
 		A113FA101E8DE35F00B24090 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398A27E375553BDBCE1C35F2 /* Pods-BluetoothLEDStripIntentionsTarget.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = YQ725TAW5U;
 				INFOPLIST_FILE = BluetoothLEDStripIntentionsTarget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASN.BluetoothLEDStrip.BluetoothLEDStripIntentionsTarget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -394,9 +448,11 @@
 		};
 		A113FA111E8DE35F00B24090 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13428486F4B3C9A6E743DDF /* Pods-BluetoothLEDStripIntentionsTarget.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = YQ725TAW5U;
 				INFOPLIST_FILE = BluetoothLEDStripIntentionsTarget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASN.BluetoothLEDStrip.BluetoothLEDStripIntentionsTarget;
 				PRODUCT_NAME = "$(TARGET_NAME)";

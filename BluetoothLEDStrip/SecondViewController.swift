@@ -8,16 +8,6 @@
 
 import UIKit
 
-struct AlarmComponents {
-	var hour: Int
-	var minute: Int
-
-	init(hour: Int, minute: Int) {
-		self.hour = hour
-		self.minute = minute
-	}
-}
-
 class SecondViewController: UIViewController {
 	@IBOutlet weak var alarmPicker: UIDatePicker!
 	@IBOutlet weak var snoozeButton: UIButton!

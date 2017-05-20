@@ -12,3 +12,10 @@ target 'BluetoothLEDStrip' do
   pod 'RAMPaperSwitch', '~> 2.0.3' 
 
 end
+
+target 'BluetoothLEDStripIntentionsTarget' do 
+  use_frameworks!
+
+  pod 'ReactiveSwift', '~> 1.1'
+
+end

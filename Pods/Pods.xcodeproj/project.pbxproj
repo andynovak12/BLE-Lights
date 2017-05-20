@@ -15,16 +15,19 @@
 		13ABD3F9134C37894612BF02E2435974 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39866C78079611F680DCBD9B7E1C091 /* UIBarButtonItem.swift */; };
 		166EE4509006214465ADFF5BA05B5E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC54C9EABE648DA0E3C432C60207F70 /* Foundation.framework */; };
 		1773C05B0BDA5F9E9BF478C790076E68 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E78212486B2B2C839C1C31D32D3D52 /* UICollectionView.swift */; };
+		179BCF8205E81EDE133CA01190A34E70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC54C9EABE648DA0E3C432C60207F70 /* Foundation.framework */; };
 		19E8E5AFFB6356F5FFC5D74B4293622F /* TupleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF2B84D67A793F6B7EC30506C827B0 /* TupleExtensions.swift */; };
 		1AFF954C016378861441107DDB73D8D5 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF7ADAAF52D03A75A7556AB51A5A89 /* UIScrollView.swift */; };
 		1BA36703845A551D1E13E83E8CAB57E5 /* APESuperHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E722C0231FA73188D96F0A9328F624 /* APESuperHUD-dummy.m */; };
 		1DC2938DFB49790E8EA4C7870A5B0E8C /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3924C969A8F529F20E767109DF6FDA /* ReactiveSwift.framework */; };
 		20EDE884A0D5A65F380A17BD9AA9BE2B /* UIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4564CDE03F89E26C2A1D3EEA10DE30A2 /* UIStepper.swift */; };
 		2264B4F5C2B73C13FD820B38DCC87BD4 /* DynamicProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763459C8DC2FE2BBC19F590B3F7E4FFE /* DynamicProperty.swift */; };
+		23DF239832A1B156CF4C9701CF50E4FE /* Pods-BluetoothLEDStripIntentionsTarget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 036927A037944A80C8D8032CFB762F75 /* Pods-BluetoothLEDStripIntentionsTarget-dummy.m */; };
 		25D01BBE1C9C2F2691F4C79CFC0BDE09 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687979BA4E9219A57E48DDE1016A0F58 /* UIButton.swift */; };
 		2964DCABEDE92451D41A118F17BA1443 /* NSObject+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA33AA216FC8BC5FF0E851D7D897241 /* NSObject+Association.swift */; };
 		2CA0F90F1C5330234B3ECCC9500B138D /* NSObject+KeyValueObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F99BBAA511F6383C1424E564ACEBD /* NSObject+KeyValueObserving.swift */; };
 		33531BE00DE391D1F006A2D9A902F0C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED77B5C4F3E330752760180BD9A9AEC /* UIKit.framework */; };
+		350C2037CCA6A936B5DAAAB5AD152217 /* Pods-BluetoothLEDStripIntentionsTarget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A355AC8878592AAC9DE48413BFE9B6F9 /* Pods-BluetoothLEDStripIntentionsTarget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		364230B4463A8D9BB6D5F03D7BBC9093 /* NSObject+BindingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68D4639A22700C9CDEF22388EC91ED /* NSObject+BindingTarget.swift */; };
 		3AA41AED0A8AAA9F5161A004D92C4E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC54C9EABE648DA0E3C432C60207F70 /* Foundation.framework */; };
 		468E1EF9FAB3E6838D90FAA1C243204A /* NSObject+ObjCRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F881947B031E9F8C7FB1139E491649CE /* NSObject+ObjCRuntime.swift */; };
@@ -39,7 +42,7 @@
 		564236CE3BCE65F1DD812290A70B04BD /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B15FE38BBA8DA7B3605DFCCD895A2C1 /* NSLayoutConstraint.swift */; };
 		5EC0F958C89CE59AB0D95854A1D8D87F /* UITabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED40A9BAB38D7D77DCE5980DACDAC75 /* UITabBarItem.swift */; };
 		5F2149B72DA099CC4460507EAA2BB922 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500841B8D1F8547EFBDAFAECA7B6A82E /* UIDatePicker.swift */; };
-		5FD4B1E86A9F50C58F49E7E69FD3723E /* Pods-BluetoothLEDStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 828898C5334C67DEC8B25073B61AD0FF /* Pods-BluetoothLEDStrip-dummy.m */; };
+		5FD4B1E86A9F50C58F49E7E69FD3723E /* Pods-BluetoothLEDStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A0803CF3ECD949C771C724E7DF29F /* Pods-BluetoothLEDStrip-dummy.m */; };
 		6010793D99E1DC33E3310645E135A9B3 /* UnidirectionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F591810814FC7F2F7D2AB99BD398B8 /* UnidirectionalBinding.swift */; };
 		60DB16D90531854C05B39452BA841744 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182DD9DD02B398A18EEA42FB317F45B /* UISlider.swift */; };
 		63097ACADE306B29EE21B05F2AC6658E /* ReactiveCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = A151E6794EF10560AB9BF4E9A208A95C /* ReactiveCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,7 +72,7 @@
 		9ADFD0EA0AF24B53346A98A0F69D71CA /* ObjC+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7C57533316358C2EA2D8008E0F7EA /* ObjC+Constants.swift */; };
 		9BBB031409017980399FCAF61D78B725 /* RAMPaperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60C944ED4F4B19D5FDF26CDC63C269 /* RAMPaperSwitch.swift */; };
 		9D9A4C0A7FFFB1FFAC8B17AA6013C2BE /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FFF29305AD711B063DDA9CC3FEB92 /* UISegmentedControl.swift */; };
-		9F361805F83C2F36445DDC64DF616D75 /* Pods-BluetoothLEDStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E766A925BBF67C6353A0861B2E23C1C /* Pods-BluetoothLEDStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F361805F83C2F36445DDC64DF616D75 /* Pods-BluetoothLEDStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD9C445A7ED563A0727677DC4423775 /* Pods-BluetoothLEDStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FE65683EE1EAC9F54016922D4C9DC70 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EFB08A6B45D0C73DA0F4209D4C3817 /* Observer.swift */; };
 		A0B4660517EFD4BDFDD6170808CD4D63 /* RAMPaperSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA44B1C0E28DA7D3A438F5D488D16AA /* RAMPaperSwitch-dummy.m */; };
 		A30126D5660815F0EDD60A826066811F /* UIImpact​Feedback​Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDFBB102C3E88998E310A10C41BBBD1 /* UIImpact​Feedback​Generator.swift */; };
@@ -129,6 +132,20 @@
 			remoteGlobalIDString = 011B742AEF4E0967F6BFD6283679E217;
 			remoteInfo = RAMPaperSwitch;
 		};
+		23FE932D0E8533E9DCF48ECC13938A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB373B62751BCE9A242DB0CF31D7E0E;
+			remoteInfo = Result;
+		};
+		3D39FB33767CD2C95C37E96AA4BE6ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B623DEFE69A6F55BE63E389A0289C568;
+			remoteInfo = ReactiveSwift;
+		};
 		6DCAD65C2ED230B39A4B0F44D9F1F53B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -176,14 +193,14 @@
 /* Begin PBXFileReference section */
 		00B3D5FCDD1D754FE597EA6058AAC2A0 /* Flatten.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flatten.swift; path = Sources/Flatten.swift; sourceTree = "<group>"; };
 		0149D0E598446C97BB6AAC9B738B718D /* ReactiveCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-prefix.pch"; sourceTree = "<group>"; };
+		036927A037944A80C8D8032CFB762F75 /* Pods-BluetoothLEDStripIntentionsTarget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BluetoothLEDStripIntentionsTarget-dummy.m"; sourceTree = "<group>"; };
 		03D10B5DD1B361E763F294AC3D9D0E48 /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
 		03D66DE28ADD3B40C3CD731AF91F7D93 /* ObjC+Messages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObjC+Messages.swift"; path = "ReactiveCocoa/ObjC+Messages.swift"; sourceTree = "<group>"; };
-		049004027201D037F6DACA9C4AA81409 /* Pods-BluetoothLEDStrip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluetoothLEDStrip-frameworks.sh"; sourceTree = "<group>"; };
 		056CE407F103FDAB6141037411B4F4D6 /* NSObject+Lifetime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Lifetime.swift"; path = "ReactiveCocoa/NSObject+Lifetime.swift"; sourceTree = "<group>"; };
 		06009C63255DFB59B8E4E6689A40BC96 /* UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = ReactiveCocoa/UIKit/UIImageView.swift; sourceTree = "<group>"; };
 		08669F68C931D26E9D3419BF1D15B5CA /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
-		09DD1A3C47D387FE66ACC9AFE4160277 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveCocoa.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A60C944ED4F4B19D5FDF26CDC63C269 /* RAMPaperSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMPaperSwitch.swift; path = PaperSwitch/RAMPaperSwitch.swift; sourceTree = "<group>"; };
+		0CD9C445A7ED563A0727677DC4423775 /* Pods-BluetoothLEDStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BluetoothLEDStrip-umbrella.h"; sourceTree = "<group>"; };
 		0F8C6499CC8D40BDF13CC2A3A0577763 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1020CB98B5211A2095F7D5F708186C34 /* SignalProducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalProducer.swift; path = Sources/SignalProducer.swift; sourceTree = "<group>"; };
 		10B7EB32F69BFFC9ECC801B04D2C7453 /* Scheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scheduler.swift; path = Sources/Scheduler.swift; sourceTree = "<group>"; };
@@ -192,25 +209,27 @@
 		1C6583BD2DDCB4A9D80CA4FCB4E7573B /* ValidatingProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatingProperty.swift; path = Sources/ValidatingProperty.swift; sourceTree = "<group>"; };
 		1CD6E1DA89AAA8938E81E826B8F5C11F /* EventLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventLogger.swift; path = Sources/EventLogger.swift; sourceTree = "<group>"; };
 		1CEF7ADAAF52D03A75A7556AB51A5A89 /* UIScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollView.swift; path = ReactiveCocoa/UIKit/UIScrollView.swift; sourceTree = "<group>"; };
-		1E766A925BBF67C6353A0861B2E23C1C /* Pods-BluetoothLEDStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BluetoothLEDStrip-umbrella.h"; sourceTree = "<group>"; };
+		1E0380E91CC25A6811827735A69BE3BF /* APESuperHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APESuperHUD.framework; path = APESuperHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFF3607723CE9B02573CAD925D512EC /* Pods-BluetoothLEDStrip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluetoothLEDStrip-frameworks.sh"; sourceTree = "<group>"; };
 		201DE36B7BCA1570B919275F0223BBA2 /* UISearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISearchBar.swift; path = ReactiveCocoa/UIKit/iOS/UISearchBar.swift; sourceTree = "<group>"; };
-		20F1BD9C97C2DC3EA201CA2F8BA86092 /* RAMPaperSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMPaperSwitch.framework; path = RAMPaperSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E78212486B2B2C839C1C31D32D3D52 /* UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionView.swift; path = ReactiveCocoa/UIKit/UICollectionView.swift; sourceTree = "<group>"; };
-		23A2928B6D23E3BB3319D5F6A71CA763 /* ReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveSwift.framework; path = ReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2565305E257F6AA66BE8159320365855 /* Pods-BluetoothLEDStrip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BluetoothLEDStrip-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2B6F45086D9233840168BD872996D0AC /* ObjCRuntimeAliases.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjCRuntimeAliases.h; path = ReactiveCocoa/ObjCRuntimeAliases.h; sourceTree = "<group>"; };
 		2E0728306951860BBFDBC0FB090EF58C /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIGestureRecognizer.swift; path = ReactiveCocoa/UIKit/UIGestureRecognizer.swift; sourceTree = "<group>"; };
+		2F8993598A69C80A61E637D03F082693 /* Pods-BluetoothLEDStrip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluetoothLEDStrip-acknowledgements.plist"; sourceTree = "<group>"; };
 		31F4072515B373E0EC9F1A6CB1EBFD05 /* APESuperHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APESuperHUD.h; path = Source/APESuperHUD.h; sourceTree = "<group>"; };
 		35966FB8A972B4BAF453C7288EEF3C22 /* UIActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIActivityIndicatorView.swift; path = ReactiveCocoa/UIKit/UIActivityIndicatorView.swift; sourceTree = "<group>"; };
 		363B390BDAF4E7C0EC0D4E7B4EE33977 /* ReactiveSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveSwift-umbrella.h"; sourceTree = "<group>"; };
+		375F720243E6DF0ED5CFF876341AF5AA /* Pods-BluetoothLEDStripIntentionsTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluetoothLEDStripIntentionsTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		39213FAE8A5C2D26A49E6D03D14C6EB1 /* Pods-BluetoothLEDStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluetoothLEDStrip.debug.xcconfig"; sourceTree = "<group>"; };
 		39B334BD9F3D3D47E91420A95EE187D0 /* LoadingMessagesHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingMessagesHandler.swift; path = Source/LoadingMessagesHandler.swift; sourceTree = "<group>"; };
+		3A9620ACBE07A8D9D2787CB240609B0E /* Pods-BluetoothLEDStripIntentionsTarget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BluetoothLEDStripIntentionsTarget.modulemap"; sourceTree = "<group>"; };
 		40BFA750E0DDDD3D6E63995EB0DF0262 /* UIRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIRefreshControl.swift; path = ReactiveCocoa/UIKit/iOS/UIRefreshControl.swift; sourceTree = "<group>"; };
 		41345B8C305C5DB1E6DAEA1BCACC1DC8 /* APESuperHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APESuperHUD-umbrella.h"; sourceTree = "<group>"; };
 		432C83FC8B0AF2BABB66DA13BA75A46B /* UISwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISwitch.swift; path = ReactiveCocoa/UIKit/iOS/UISwitch.swift; sourceTree = "<group>"; };
 		4564CDE03F89E26C2A1D3EEA10DE30A2 /* UIStepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStepper.swift; path = ReactiveCocoa/UIKit/iOS/UIStepper.swift; sourceTree = "<group>"; };
-		4773732D3546E7C9A67F1DF6AE2BBD3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47DF2B84D67A793F6B7EC30506C827B0 /* TupleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TupleExtensions.swift; path = Sources/TupleExtensions.swift; sourceTree = "<group>"; };
 		47F7C57533316358C2EA2D8008E0F7EA /* ObjC+Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObjC+Constants.swift"; path = "ReactiveCocoa/ObjC+Constants.swift"; sourceTree = "<group>"; };
-		493CD33280F3AEB87C6A65474ACB071F /* APESuperHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APESuperHUD.framework; path = APESuperHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8CE1F37D10B229D33B66902A0A1B46 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Sources/Event.swift; sourceTree = "<group>"; };
 		4D1587D60770E4AFDD30C2D8BBB5FDED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F579E7DAAD47746B431DAEC44816CAB /* CocoaAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaAction.swift; path = ReactiveCocoa/CocoaAction.swift; sourceTree = "<group>"; };
@@ -219,38 +238,44 @@
 		5130D2B8202F2F814FFB749F6F66CDEF /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Sources/Bag.swift; sourceTree = "<group>"; };
 		524AC9C9AE9646839BE19B6BBF3BEA95 /* ObjC+Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObjC+Selector.swift"; path = "ReactiveCocoa/ObjC+Selector.swift"; sourceTree = "<group>"; };
 		556BC22597EEFE68B9ECB51C322E66D0 /* UINotification​Feedback​Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINotification​Feedback​Generator.swift"; path = "ReactiveCocoa/UIKit/iOS/UINotification​Feedback​Generator.swift"; sourceTree = "<group>"; };
+		56BBF8E431480BE463B11C2CC10135CB /* Pods-BluetoothLEDStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluetoothLEDStrip.release.xcconfig"; sourceTree = "<group>"; };
 		5AA33AA216FC8BC5FF0E851D7D897241 /* NSObject+Association.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Association.swift"; path = "ReactiveCocoa/NSObject+Association.swift"; sourceTree = "<group>"; };
 		5C036CC3D7FD3AB92C73B557FD561250 /* UIPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPickerView.swift; path = ReactiveCocoa/UIKit/iOS/UIPickerView.swift; sourceTree = "<group>"; };
 		5D9B8CE04C19EA874D7F2C7586B2C267 /* ResultExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultExtensions.swift; path = Sources/ResultExtensions.swift; sourceTree = "<group>"; };
+		5EBBF84B8BB3C00934A295F9B9B1DDBE /* Pods-BluetoothLEDStripIntentionsTarget-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BluetoothLEDStripIntentionsTarget-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5F21CBC905B9BE88FFC765A6C1ACB083 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Result/ResultProtocol.swift; sourceTree = "<group>"; };
 		60285DFCE67BA30C786E4571A03E3D29 /* UIKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKeyboard.swift; path = ReactiveCocoa/UIKit/iOS/UIKeyboard.swift; sourceTree = "<group>"; };
 		60E50675711EA05BFE3A91027AD5CFCA /* Deprecations+Removals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Deprecations+Removals.swift"; path = "Sources/Deprecations+Removals.swift"; sourceTree = "<group>"; };
 		61CB6B45131A76EB135FCFC9B48EA347 /* NSObject+Synchronizing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Synchronizing.swift"; path = "ReactiveCocoa/NSObject+Synchronizing.swift"; sourceTree = "<group>"; };
 		6230093B4A4C56AEFDBD1879C7D0B253 /* ReactiveSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReactiveSwift.modulemap; sourceTree = "<group>"; };
+		63BEA5B9F77B754071BBDD234E59E1DA /* ReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveSwift.framework; path = ReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		644C846F8A3489D3C605DDA5EFAF54C6 /* Pods-BluetoothLEDStrip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluetoothLEDStrip-resources.sh"; sourceTree = "<group>"; };
 		64C67D0DCDCA406BEB0AEE2CAC7F6DD9 /* RAMPaperSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RAMPaperSwitch.modulemap; sourceTree = "<group>"; };
-		66317A9BF447F3A8C17CE534A169EA54 /* Pods-BluetoothLEDStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluetoothLEDStrip.debug.xcconfig"; sourceTree = "<group>"; };
 		687979BA4E9219A57E48DDE1016A0F58 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = ReactiveCocoa/UIKit/UIButton.swift; sourceTree = "<group>"; };
+		6A1AB4514D1F6F919F27A82BD2A0F909 /* Pods-BluetoothLEDStripIntentionsTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluetoothLEDStripIntentionsTarget.release.xcconfig"; sourceTree = "<group>"; };
 		6C8FFF29305AD711B063DDA9CC3FEB92 /* UISegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISegmentedControl.swift; path = ReactiveCocoa/UIKit/UISegmentedControl.swift; sourceTree = "<group>"; };
+		6D4A0803CF3ECD949C771C724E7DF29F /* Pods-BluetoothLEDStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BluetoothLEDStrip-dummy.m"; sourceTree = "<group>"; };
 		6F34967035E237DE959566D7A4D6A663 /* APESuperHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = APESuperHUD.modulemap; sourceTree = "<group>"; };
 		6F8A65497DDB186E7DD13B9D65BC3193 /* NSObject+Intercepting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Intercepting.swift"; path = "ReactiveCocoa/NSObject+Intercepting.swift"; sourceTree = "<group>"; };
 		6FA3D12990DDAA2E75BDB741EE525634 /* NSObject+ReactiveExtensionsProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+ReactiveExtensionsProvider.swift"; path = "ReactiveCocoa/NSObject+ReactiveExtensionsProvider.swift"; sourceTree = "<group>"; };
+		6FA9652C848AC2A373CDD26D9C8E4FD5 /* Pods_BluetoothLEDStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BluetoothLEDStrip.framework; path = "Pods-BluetoothLEDStrip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F591810814FC7F2F7D2AB99BD398B8 /* UnidirectionalBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnidirectionalBinding.swift; path = Sources/UnidirectionalBinding.swift; sourceTree = "<group>"; };
 		73AECA92E392E90B93F9DD7ACB43A5A7 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Sources/Action.swift; sourceTree = "<group>"; };
 		763459C8DC2FE2BBC19F590B3F7E4FFE /* DynamicProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicProperty.swift; path = ReactiveCocoa/DynamicProperty.swift; sourceTree = "<group>"; };
 		765395CF93F234D07CA4CCE1A60A271C /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = ReactiveCocoa/UIKit/UITableView.swift; sourceTree = "<group>"; };
 		7BDF493D385E0738FE9692DBC94EF999 /* Reactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reactive.swift; path = Sources/Reactive.swift; sourceTree = "<group>"; };
+		7DCA26DF1CCB593D5057B9FF28F03A3D /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Result.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		806CB21BB59AD1C79BB0642F0593DA0A /* ReactiveSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveSwift-prefix.pch"; sourceTree = "<group>"; };
 		8182DD9DD02B398A18EEA42FB317F45B /* UISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISlider.swift; path = ReactiveCocoa/UIKit/iOS/UISlider.swift; sourceTree = "<group>"; };
-		828898C5334C67DEC8B25073B61AD0FF /* Pods-BluetoothLEDStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BluetoothLEDStrip-dummy.m"; sourceTree = "<group>"; };
-		834E99B14B40A5F891696581C2FE8F42 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Result.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8374C2662FDC83E242C0D03A6AE1F788 /* ReactiveSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactiveSwift-dummy.m"; sourceTree = "<group>"; };
+		84AB5FEF3F03C64B7BAE5CE325D115C5 /* RAMPaperSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMPaperSwitch.framework; path = RAMPaperSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		865751E1B9BE8FBDE431A0D08EF1AEF8 /* UIFeedbackGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFeedbackGenerator.swift; path = ReactiveCocoa/UIKit/iOS/UIFeedbackGenerator.swift; sourceTree = "<group>"; };
 		87E722C0231FA73188D96F0A9328F624 /* APESuperHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APESuperHUD-dummy.m"; sourceTree = "<group>"; };
+		8A1CD57E16B623BDB6ECC933C0886F1E /* Pods_BluetoothLEDStripIntentionsTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BluetoothLEDStripIntentionsTarget.framework; path = "Pods-BluetoothLEDStripIntentionsTarget.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEFDD5EF27E20460BEF8B90BD0FD065 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Sources/Property.swift; sourceTree = "<group>"; };
 		8B15FE38BBA8DA7B3605DFCCD895A2C1 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutConstraint.swift; path = ReactiveCocoa/Shared/NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		8D1E750064D2F36282751E8D913FEC67 /* HudView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HudView.swift; path = Source/HudView.swift; sourceTree = "<group>"; };
 		8E0A70DF68FE86D29E423A1660D27D51 /* RAMPaperSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMPaperSwitch.xcconfig; sourceTree = "<group>"; };
-		8E100D727E2821F651D069CAFFB5DB62 /* Pods-BluetoothLEDStrip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BluetoothLEDStrip-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E82D5CEB53F3E58564C924E451F14C4 /* UIControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIControl.swift; path = ReactiveCocoa/UIKit/UIControl.swift; sourceTree = "<group>"; };
 		8ED77B5C4F3E330752760180BD9A9AEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8F3924C969A8F529F20E767109DF6FDA /* ReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -259,13 +284,13 @@
 		9A903A4619AFFB56B51DEA89F321D552 /* Deprecations+Removals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Deprecations+Removals.swift"; path = "ReactiveCocoa/Deprecations+Removals.swift"; sourceTree = "<group>"; };
 		9B12591DF38F40AF152FD55FAF4DD002 /* UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextField.swift; path = ReactiveCocoa/UIKit/UITextField.swift; sourceTree = "<group>"; };
 		9D4E995CF9D0A12E9FB07CD3136C60F7 /* UINavigationItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationItem.swift; path = ReactiveCocoa/UIKit/UINavigationItem.swift; sourceTree = "<group>"; };
-		9DDE20797A33440CD67E46330BCB81F6 /* Pods-BluetoothLEDStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BluetoothLEDStrip.modulemap"; sourceTree = "<group>"; };
 		9DFD038F86AF86D6DCCAB635B2F3DE55 /* RAMPaperSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMPaperSwitch-umbrella.h"; sourceTree = "<group>"; };
+		9EE2EB3DB5E2F700E6EEA811B81A97A7 /* Pods-BluetoothLEDStripIntentionsTarget-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluetoothLEDStripIntentionsTarget-acknowledgements.plist"; sourceTree = "<group>"; };
 		A0FF7F9A7AEF2AC1DD0928C9AA70A977 /* ReactiveCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactiveCocoa-dummy.m"; sourceTree = "<group>"; };
 		A151E6794EF10560AB9BF4E9A208A95C /* ReactiveCocoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReactiveCocoa.h; path = ReactiveCocoa/ReactiveCocoa.h; sourceTree = "<group>"; };
 		A163DF6070F12EAAAC81E56A7287273C /* Lifetime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lifetime.swift; path = Sources/Lifetime.swift; sourceTree = "<group>"; };
+		A355AC8878592AAC9DE48413BFE9B6F9 /* Pods-BluetoothLEDStripIntentionsTarget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BluetoothLEDStripIntentionsTarget-umbrella.h"; sourceTree = "<group>"; };
 		A39866C78079611F680DCBD9B7E1C091 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItem.swift; path = ReactiveCocoa/UIKit/UIBarButtonItem.swift; sourceTree = "<group>"; };
-		A50DF2A156DCCA710AC446760D36098F /* Pods-BluetoothLEDStrip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluetoothLEDStrip-resources.sh"; sourceTree = "<group>"; };
 		A5A9AABAA504F5466F1B806E7486A65D /* RAMPaperSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMPaperSwitch-prefix.pch"; sourceTree = "<group>"; };
 		A6667422F688416CA20A87E2574F56AB /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextView.swift; path = ReactiveCocoa/UIKit/UITextView.swift; sourceTree = "<group>"; };
 		A68E864D472084F3FD2F02CCD4ABC661 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
@@ -273,10 +298,10 @@
 		AB7C9DD9FE27AA430871888849BDA040 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = Sources/Optional.swift; sourceTree = "<group>"; };
 		AC5E28B3A070D9FEA3B4FF53F962F416 /* APESuperHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APESuperHUD.swift; path = Source/APESuperHUD.swift; sourceTree = "<group>"; };
 		B257A8CCD5E93E864AFC99583E706891 /* ObjCRuntimeAliases.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ObjCRuntimeAliases.m; path = ReactiveCocoa/ObjCRuntimeAliases.m; sourceTree = "<group>"; };
+		B60E987CDB3FA162EED21642FEE98063 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7240431E1DEE83C0C1C64FE63FA1848 /* MKMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKMapView.swift; path = ReactiveCocoa/Shared/MKMapView.swift; sourceTree = "<group>"; };
 		B92AE8B55ABC51030C767B396EE922F8 /* Result.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.xcconfig; sourceTree = "<group>"; };
 		B9A502128B0DCCCDC69C5E24890E8E67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9FDBCCBB49333FD2884B3965BCF4C9F /* Pods_BluetoothLEDStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BluetoothLEDStrip.framework; path = "Pods-BluetoothLEDStrip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9F99BBAA511F6383C1424E564ACEBD /* NSObject+KeyValueObserving.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+KeyValueObserving.swift"; path = "ReactiveCocoa/NSObject+KeyValueObserving.swift"; sourceTree = "<group>"; };
 		BBDFBB102C3E88998E310A10C41BBBD1 /* UIImpact​Feedback​Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImpact​Feedback​Generator.swift"; path = "ReactiveCocoa/UIKit/iOS/UIImpact​Feedback​Generator.swift"; sourceTree = "<group>"; };
 		BD1C5F3A83AD15373FFE42B4EBA57D4E /* ObjC+RuntimeSubclassing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObjC+RuntimeSubclassing.swift"; path = "ReactiveCocoa/ObjC+RuntimeSubclassing.swift"; sourceTree = "<group>"; };
@@ -287,8 +312,10 @@
 		C42CBFDF3240965A2D877039EB0CF2F5 /* ReusableComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusableComponents.swift; path = ReactiveCocoa/UIKit/ReusableComponents.swift; sourceTree = "<group>"; };
 		C54EC231878ADC2B0A71CD8122871875 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6384F077E56C9E8B8EB30F1A50DECA8 /* FoundationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationExtensions.swift; path = Sources/FoundationExtensions.swift; sourceTree = "<group>"; };
+		C738AD10F607ED6C62CB2843C3FE29B2 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveCocoa.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7EFB08A6B45D0C73DA0F4209D4C3817 /* Observer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observer.swift; path = Sources/Observer.swift; sourceTree = "<group>"; };
 		C98DB560AE72DEA780827B98DD7A2D1E /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = ReactiveCocoa/DelegateProxy.swift; sourceTree = "<group>"; };
+		CA47014CD88BD42187046F113C2D8338 /* Pods-BluetoothLEDStripIntentionsTarget-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluetoothLEDStripIntentionsTarget-resources.sh"; sourceTree = "<group>"; };
 		CBCD27C2D340D00E7A6143C9A46031A1 /* HudAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HudAppearance.swift; path = Source/HudAppearance.swift; sourceTree = "<group>"; };
 		CBE7314AF4CE66255608079D4C2EABF7 /* APESuperHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APESuperHUD.xcconfig; sourceTree = "<group>"; };
 		CCB8639AE4FDE20456E83A51FFE9CAE5 /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = ReactiveCocoa/UIKit/UIView.swift; sourceTree = "<group>"; };
@@ -299,14 +326,14 @@
 		DB1DB140D92637065B7CB259FB4521D1 /* ReactiveSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveSwift.xcconfig; sourceTree = "<group>"; };
 		DE38654B1E92A1786B0849E83969FB2E /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EA64413DF36F383281A156D5904ED4 /* UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = ReactiveCocoa/UIKit/UILabel.swift; sourceTree = "<group>"; };
-		E74E72F426A98705225FC9C6D2EC21FA /* Pods-BluetoothLEDStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluetoothLEDStrip.release.xcconfig"; sourceTree = "<group>"; };
 		EB230A93827F55D0358A0003B426B10F /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
 		F0213B87B95F3F344D7A992AFC66041E /* ReactiveCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveCocoa.xcconfig; sourceTree = "<group>"; };
 		F142AB80FC113087BF8756EC460B8955 /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = Sources/Signal.swift; sourceTree = "<group>"; };
 		F29CF80BE6A283981C1C00405B3FBB65 /* Atomic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = Sources/Atomic.swift; sourceTree = "<group>"; };
 		F533CAEAEE128062EB94B5A184C6F64D /* UIProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIProgressView.swift; path = ReactiveCocoa/UIKit/UIProgressView.swift; sourceTree = "<group>"; };
-		F5EC5FA93D2DA95EB9E3022F7A5A87DA /* Pods-BluetoothLEDStrip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluetoothLEDStrip-acknowledgements.plist"; sourceTree = "<group>"; };
+		F812A9283577CD6B2E70F51C7C647114 /* Pods-BluetoothLEDStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BluetoothLEDStrip.modulemap"; sourceTree = "<group>"; };
 		F881947B031E9F8C7FB1139E491649CE /* NSObject+ObjCRuntime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+ObjCRuntime.swift"; path = "ReactiveCocoa/NSObject+ObjCRuntime.swift"; sourceTree = "<group>"; };
+		FA37109EA78E8D7585CF384496E8F965 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FED40A9BAB38D7D77DCE5980DACDAC75 /* UITabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITabBarItem.swift; path = ReactiveCocoa/UIKit/UITabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -346,6 +373,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD165F30775D734A099A47EFEEE28612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179BCF8205E81EDE133CA01190A34E70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2BC986314B5D5B0A22E5C3F11B7A2EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,14 +412,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ReactiveCocoa";
-			sourceTree = "<group>";
-		};
-		064E7B767BB44C2C48A9085B18F0657F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7EBA3A97500C5776670440BAC3ACB453 /* Pods-BluetoothLEDStrip */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		0F602EAF6968BA8CAF0C5FA767E834AA /* Support Files */ = {
@@ -520,14 +547,37 @@
 			path = ReactiveSwift;
 			sourceTree = "<group>";
 		};
+		581B4D073BAFD42CD94123458FF7177C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E0380E91CC25A6811827735A69BE3BF /* APESuperHUD.framework */,
+				6FA9652C848AC2A373CDD26D9C8E4FD5 /* Pods_BluetoothLEDStrip.framework */,
+				8A1CD57E16B623BDB6ECC933C0886F1E /* Pods_BluetoothLEDStripIntentionsTarget.framework */,
+				84AB5FEF3F03C64B7BAE5CE325D115C5 /* RAMPaperSwitch.framework */,
+				C738AD10F607ED6C62CB2843C3FE29B2 /* ReactiveCocoa.framework */,
+				63BEA5B9F77B754071BBDD234E59E1DA /* ReactiveSwift.framework */,
+				7DCA26DF1CCB593D5057B9FF28F03A3D /* Result.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67CBD83FD18D9E4CF73AA31DB41D611C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9F11857C9F4B00F16134950B9F7DE90 /* Pods-BluetoothLEDStrip */,
+				DD220BF5C85AAD11644D1B7F998EC0C1 /* Pods-BluetoothLEDStripIntentionsTarget */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				9857BB4AEAF461FF6690CB0E86A7A29E /* Frameworks */,
 				B97BF74424F291668B905C671BB33F4B /* Pods */,
-				CFE3E5FCE3E44457076AFAA2DB7DC782 /* Products */,
-				064E7B767BB44C2C48A9085B18F0657F /* Targets Support Files */,
+				581B4D073BAFD42CD94123458FF7177C /* Products */,
+				67CBD83FD18D9E4CF73AA31DB41D611C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -551,24 +601,6 @@
 				C13C93C2DE43E5EE6AAE65B6B1B75715 /* FrameworkMedia.xcassets */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		7EBA3A97500C5776670440BAC3ACB453 /* Pods-BluetoothLEDStrip */ = {
-			isa = PBXGroup;
-			children = (
-				4773732D3546E7C9A67F1DF6AE2BBD3C /* Info.plist */,
-				9DDE20797A33440CD67E46330BCB81F6 /* Pods-BluetoothLEDStrip.modulemap */,
-				8E100D727E2821F651D069CAFFB5DB62 /* Pods-BluetoothLEDStrip-acknowledgements.markdown */,
-				F5EC5FA93D2DA95EB9E3022F7A5A87DA /* Pods-BluetoothLEDStrip-acknowledgements.plist */,
-				828898C5334C67DEC8B25073B61AD0FF /* Pods-BluetoothLEDStrip-dummy.m */,
-				049004027201D037F6DACA9C4AA81409 /* Pods-BluetoothLEDStrip-frameworks.sh */,
-				A50DF2A156DCCA710AC446760D36098F /* Pods-BluetoothLEDStrip-resources.sh */,
-				1E766A925BBF67C6353A0861B2E23C1C /* Pods-BluetoothLEDStrip-umbrella.h */,
-				66317A9BF447F3A8C17CE534A169EA54 /* Pods-BluetoothLEDStrip.debug.xcconfig */,
-				E74E72F426A98705225FC9C6D2EC21FA /* Pods-BluetoothLEDStrip.release.xcconfig */,
-			);
-			name = "Pods-BluetoothLEDStrip";
-			path = "Target Support Files/Pods-BluetoothLEDStrip";
 			sourceTree = "<group>";
 		};
 		9857BB4AEAF461FF6690CB0E86A7A29E /* Frameworks */ = {
@@ -617,19 +649,6 @@
 			path = RAMPaperSwitch;
 			sourceTree = "<group>";
 		};
-		CFE3E5FCE3E44457076AFAA2DB7DC782 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				493CD33280F3AEB87C6A65474ACB071F /* APESuperHUD.framework */,
-				B9FDBCCBB49333FD2884B3965BCF4C9F /* Pods_BluetoothLEDStrip.framework */,
-				20F1BD9C97C2DC3EA201CA2F8BA86092 /* RAMPaperSwitch.framework */,
-				09DD1A3C47D387FE66ACC9AFE4160277 /* ReactiveCocoa.framework */,
-				23A2928B6D23E3BB3319D5F6A71CA763 /* ReactiveSwift.framework */,
-				834E99B14B40A5F891696581C2FE8F42 /* Result.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D249E30977413F8B115F576521C85D7B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -644,6 +663,23 @@
 			path = "../Target Support Files/ReactiveSwift";
 			sourceTree = "<group>";
 		};
+		DD220BF5C85AAD11644D1B7F998EC0C1 /* Pods-BluetoothLEDStripIntentionsTarget */ = {
+			isa = PBXGroup;
+			children = (
+				B60E987CDB3FA162EED21642FEE98063 /* Info.plist */,
+				3A9620ACBE07A8D9D2787CB240609B0E /* Pods-BluetoothLEDStripIntentionsTarget.modulemap */,
+				5EBBF84B8BB3C00934A295F9B9B1DDBE /* Pods-BluetoothLEDStripIntentionsTarget-acknowledgements.markdown */,
+				9EE2EB3DB5E2F700E6EEA811B81A97A7 /* Pods-BluetoothLEDStripIntentionsTarget-acknowledgements.plist */,
+				036927A037944A80C8D8032CFB762F75 /* Pods-BluetoothLEDStripIntentionsTarget-dummy.m */,
+				CA47014CD88BD42187046F113C2D8338 /* Pods-BluetoothLEDStripIntentionsTarget-resources.sh */,
+				A355AC8878592AAC9DE48413BFE9B6F9 /* Pods-BluetoothLEDStripIntentionsTarget-umbrella.h */,
+				375F720243E6DF0ED5CFF876341AF5AA /* Pods-BluetoothLEDStripIntentionsTarget.debug.xcconfig */,
+				6A1AB4514D1F6F919F27A82BD2A0F909 /* Pods-BluetoothLEDStripIntentionsTarget.release.xcconfig */,
+			);
+			name = "Pods-BluetoothLEDStripIntentionsTarget";
+			path = "Target Support Files/Pods-BluetoothLEDStripIntentionsTarget";
+			sourceTree = "<group>";
+		};
 		E2A50EDC00EA1822FD4D40958A505ABD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -651,6 +687,24 @@
 				8ED77B5C4F3E330752760180BD9A9AEC /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9F11857C9F4B00F16134950B9F7DE90 /* Pods-BluetoothLEDStrip */ = {
+			isa = PBXGroup;
+			children = (
+				FA37109EA78E8D7585CF384496E8F965 /* Info.plist */,
+				F812A9283577CD6B2E70F51C7C647114 /* Pods-BluetoothLEDStrip.modulemap */,
+				2565305E257F6AA66BE8159320365855 /* Pods-BluetoothLEDStrip-acknowledgements.markdown */,
+				2F8993598A69C80A61E637D03F082693 /* Pods-BluetoothLEDStrip-acknowledgements.plist */,
+				6D4A0803CF3ECD949C771C724E7DF29F /* Pods-BluetoothLEDStrip-dummy.m */,
+				1FFF3607723CE9B02573CAD925D512EC /* Pods-BluetoothLEDStrip-frameworks.sh */,
+				644C846F8A3489D3C605DDA5EFAF54C6 /* Pods-BluetoothLEDStrip-resources.sh */,
+				0CD9C445A7ED563A0727677DC4423775 /* Pods-BluetoothLEDStrip-umbrella.h */,
+				39213FAE8A5C2D26A49E6D03D14C6EB1 /* Pods-BluetoothLEDStrip.debug.xcconfig */,
+				56BBF8E431480BE463B11C2CC10135CB /* Pods-BluetoothLEDStrip.release.xcconfig */,
+			);
+			name = "Pods-BluetoothLEDStrip";
+			path = "Target Support Files/Pods-BluetoothLEDStrip";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -697,6 +751,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8C4CA5BCCB186B58AAC9E66DC09F163 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C2037CCA6A936B5DAAAB5AD152217 /* Pods-BluetoothLEDStripIntentionsTarget-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E93453A46EEC84CEFB091B4D5EB0B846 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -723,7 +785,7 @@
 			);
 			name = RAMPaperSwitch;
 			productName = RAMPaperSwitch;
-			productReference = 20F1BD9C97C2DC3EA201CA2F8BA86092 /* RAMPaperSwitch.framework */;
+			productReference = 84AB5FEF3F03C64B7BAE5CE325D115C5 /* RAMPaperSwitch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		386FAAC55AA215BD66F84664AE47D0FD /* APESuperHUD */ = {
@@ -741,7 +803,7 @@
 			);
 			name = APESuperHUD;
 			productName = APESuperHUD;
-			productReference = 493CD33280F3AEB87C6A65474ACB071F /* APESuperHUD.framework */;
+			productReference = 1E0380E91CC25A6811827735A69BE3BF /* APESuperHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		38D0579CCF8CDE8A886216A1005E9385 /* Pods-BluetoothLEDStrip */ = {
@@ -763,7 +825,7 @@
 			);
 			name = "Pods-BluetoothLEDStrip";
 			productName = "Pods-BluetoothLEDStrip";
-			productReference = B9FDBCCBB49333FD2884B3965BCF4C9F /* Pods_BluetoothLEDStrip.framework */;
+			productReference = 6FA9652C848AC2A373CDD26D9C8E4FD5 /* Pods_BluetoothLEDStrip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6AB373B62751BCE9A242DB0CF31D7E0E /* Result */ = {
@@ -780,7 +842,7 @@
 			);
 			name = Result;
 			productName = Result;
-			productReference = 834E99B14B40A5F891696581C2FE8F42 /* Result.framework */;
+			productReference = 7DCA26DF1CCB593D5057B9FF28F03A3D /* Result.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A70D0EA26F38BF90C79718DE741A5A88 /* ReactiveCocoa */ = {
@@ -799,7 +861,7 @@
 			);
 			name = ReactiveCocoa;
 			productName = ReactiveCocoa;
-			productReference = 09DD1A3C47D387FE66ACC9AFE4160277 /* ReactiveCocoa.framework */;
+			productReference = C738AD10F607ED6C62CB2843C3FE29B2 /* ReactiveCocoa.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B623DEFE69A6F55BE63E389A0289C568 /* ReactiveSwift */ = {
@@ -817,7 +879,26 @@
 			);
 			name = ReactiveSwift;
 			productName = ReactiveSwift;
-			productReference = 23A2928B6D23E3BB3319D5F6A71CA763 /* ReactiveSwift.framework */;
+			productReference = 63BEA5B9F77B754071BBDD234E59E1DA /* ReactiveSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C402AC6ABE1BDBA17A5C389FD29AE09C /* Pods-BluetoothLEDStripIntentionsTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC87D722293D7F27ADED03267E10965D /* Build configuration list for PBXNativeTarget "Pods-BluetoothLEDStripIntentionsTarget" */;
+			buildPhases = (
+				4BDA01F462C46755B8528902ECBDC8B7 /* Sources */,
+				AD165F30775D734A099A47EFEEE28612 /* Frameworks */,
+				D8C4CA5BCCB186B58AAC9E66DC09F163 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6107DC009BC7E01837DD81415BE5DBAA /* PBXTargetDependency */,
+				A67971F728E10D616B5934AC79874300 /* PBXTargetDependency */,
+			);
+			name = "Pods-BluetoothLEDStripIntentionsTarget";
+			productName = "Pods-BluetoothLEDStripIntentionsTarget";
+			productReference = 8A1CD57E16B623BDB6ECC933C0886F1E /* Pods_BluetoothLEDStripIntentionsTarget.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -837,12 +918,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CFE3E5FCE3E44457076AFAA2DB7DC782 /* Products */;
+			productRefGroup = 581B4D073BAFD42CD94123458FF7177C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				386FAAC55AA215BD66F84664AE47D0FD /* APESuperHUD */,
 				38D0579CCF8CDE8A886216A1005E9385 /* Pods-BluetoothLEDStrip */,
+				C402AC6ABE1BDBA17A5C389FD29AE09C /* Pods-BluetoothLEDStripIntentionsTarget */,
 				011B742AEF4E0967F6BFD6283679E217 /* RAMPaperSwitch */,
 				A70D0EA26F38BF90C79718DE741A5A88 /* ReactiveCocoa */,
 				B623DEFE69A6F55BE63E389A0289C568 /* ReactiveSwift */,
@@ -870,6 +952,14 @@
 				80622CF4E55FD3F0154335B92E12AD22 /* Result-dummy.m in Sources */,
 				E4C5F088084171BFFC9C022887F20407 /* Result.swift in Sources */,
 				55EC3E1E59A198DB859F4998AF92E4AF /* ResultProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDA01F462C46755B8528902ECBDC8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DF239832A1B156CF4C9701CF50E4FE /* Pods-BluetoothLEDStripIntentionsTarget-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1023,6 +1113,18 @@
 			name = ReactiveSwift;
 			target = B623DEFE69A6F55BE63E389A0289C568 /* ReactiveSwift */;
 			targetProxy = A1E8FE0823F96025A44736BF39DC2094 /* PBXContainerItemProxy */;
+		};
+		6107DC009BC7E01837DD81415BE5DBAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveSwift;
+			target = B623DEFE69A6F55BE63E389A0289C568 /* ReactiveSwift */;
+			targetProxy = 3D39FB33767CD2C95C37E96AA4BE6ACD /* PBXContainerItemProxy */;
+		};
+		A67971F728E10D616B5934AC79874300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = 6AB373B62751BCE9A242DB0CF31D7E0E /* Result */;
+			targetProxy = 23FE932D0E8533E9DCF48ECC13938A43 /* PBXContainerItemProxy */;
 		};
 		B439EAF3EFAC7400D57422A47EE9D63A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1186,42 +1288,11 @@
 			};
 			name = Debug;
 		};
-		6C1EA70EA3FE0E6B3C98CD2C650D4102 /* Release */ = {
+		24D63E8E93923BF57D341A571A7C7DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B92AE8B55ABC51030C767B396EE922F8 /* Result.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Result;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A011D51A40D6494CE80709F1740CBBF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B92AE8B55ABC51030C767B396EE922F8 /* Result.xcconfig */;
-			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1251,10 +1322,11 @@
 			};
 			name = Debug;
 		};
-		A0190B4D3CA016D0CD85F05E15059980 /* Debug */ = {
+		2ECB341A8CB3CC9668ADFF3AE1F2765B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB1DB140D92637065B7CB259FB4521D1 /* ReactiveSwift.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1283,6 +1355,145 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3389891BAD5731E3D3B9EDE38EB22900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1AB4514D1F6F919F27A82BD2A0F909 /* Pods-BluetoothLEDStripIntentionsTarget.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BluetoothLEDStripIntentionsTarget/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluetoothLEDStripIntentionsTarget/Pods-BluetoothLEDStripIntentionsTarget.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BluetoothLEDStripIntentionsTarget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40A643D25FD41E1DA0C70F627E2F9507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375F720243E6DF0ED5CFF876341AF5AA /* Pods-BluetoothLEDStripIntentionsTarget.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BluetoothLEDStripIntentionsTarget/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluetoothLEDStripIntentionsTarget/Pods-BluetoothLEDStripIntentionsTarget.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BluetoothLEDStripIntentionsTarget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		798C9D4513684A75560C56C7D3F6318E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1DB140D92637065B7CB259FB4521D1 /* ReactiveSwift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReactiveSwift/ReactiveSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReactiveSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReactiveSwift/ReactiveSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReactiveSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		817CE8F4FAC7F0A0B8CAE1ECD6E5EF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92AE8B55ABC51030C767B396EE922F8 /* Result.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A18F8D319077EFD0CA204B9FE63EB2B8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1307,38 +1518,6 @@
 				MODULEMAP_FILE = "Target Support Files/RAMPaperSwitch/RAMPaperSwitch.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = RAMPaperSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A48F8CA42CE7D0DBC3FD87B6D6851016 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB1DB140D92637065B7CB259FB4521D1 /* ReactiveSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ReactiveSwift/ReactiveSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReactiveSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReactiveSwift/ReactiveSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ReactiveSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1383,7 +1562,7 @@
 		};
 		CB3677032A08BBEA2DF70DC9320D2188 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E74E72F426A98705225FC9C6D2EC21FA /* Pods-BluetoothLEDStrip.release.xcconfig */;
+			baseConfigurationReference = 56BBF8E431480BE463B11C2CC10135CB /* Pods-BluetoothLEDStrip.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1418,7 +1597,7 @@
 		};
 		E6B2668E0B2D87DCDE2DAEED7974BB0D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66317A9BF447F3A8C17CE534A169EA54 /* Pods-BluetoothLEDStrip.debug.xcconfig */;
+			baseConfigurationReference = 39213FAE8A5C2D26A49E6D03D14C6EB1 /* Pods-BluetoothLEDStrip.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1567,8 +1746,17 @@
 		9E37709A9950F81218494F2C70207633 /* Build configuration list for PBXNativeTarget "Result" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A011D51A40D6494CE80709F1740CBBF8 /* Debug */,
-				6C1EA70EA3FE0E6B3C98CD2C650D4102 /* Release */,
+				24D63E8E93923BF57D341A571A7C7DAB /* Debug */,
+				817CE8F4FAC7F0A0B8CAE1ECD6E5EF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC87D722293D7F27ADED03267E10965D /* Build configuration list for PBXNativeTarget "Pods-BluetoothLEDStripIntentionsTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A643D25FD41E1DA0C70F627E2F9507 /* Debug */,
+				3389891BAD5731E3D3B9EDE38EB22900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1585,8 +1773,8 @@
 		CF28596EB2494006782D862E97220AF2 /* Build configuration list for PBXNativeTarget "ReactiveSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0190B4D3CA016D0CD85F05E15059980 /* Debug */,
-				A48F8CA42CE7D0DBC3FD87B6D6851016 /* Release */,
+				2ECB341A8CB3CC9668ADFF3AE1F2765B /* Debug */,
+				798C9D4513684A75560C56C7D3F6318E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,6 @@
+framework module Pods_BluetoothLEDStripIntentionsTarget {
+  umbrella header "Pods-BluetoothLEDStripIntentionsTarget-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -103,6 +103,7 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
 				completion(INStringResolutionResult.success(with: "Sorry, I was unable to understand your alarm time."))
 				return
 			}
+			BluetoothManager.sharedInstance.scanForPeripherals()
 			completion(INStringResolutionResult.success(with: "Setting Alarm to \(alarmTime.0):\(alarmTime.1)"))
 //			completion(INStringResolutionResult.success(with: text))
         } else {
@@ -124,10 +125,18 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
     
     func handle(sendMessage intent: INSendMessageIntent, completion: @escaping (INSendMessageIntentResponse) -> Void) {
         // Implement your application logic to send a message here.
-        
         let userActivity = NSUserActivity(activityType: NSStringFromClass(INSendMessageIntent.self))
         let response = INSendMessageIntentResponse(code: .success, userActivity: userActivity)
 		// TODO: HERE IS WHERE WE SEND THE COMMAND TO THE LIGHTS
+		BluetoothManager.sharedInstance.isConnecting.producer.startWithValues { isConnecting in
+			if !isConnecting {
+				BluetoothManager.sharedInstance.setColor(red: 50, green: 50, blue: 50)
+				BluetoothManager.sharedInstance.setBrightness(value: 100)
+			} else {
+				print("Is connecting to Bluetooth device")
+			}
+		}
+
         completion(response)
     }
     

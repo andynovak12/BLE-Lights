@@ -10,6 +10,16 @@ import Foundation
 import CoreBluetooth
 import ReactiveSwift
 
+struct AlarmComponents {
+	var hour: Int
+	var minute: Int
+
+	init(hour: Int, minute: Int) {
+		self.hour = hour
+		self.minute = minute
+	}
+}
+
 class BluetoothManager: NSObject {
 	static let sharedInstance = BluetoothManager()
 
