@@ -26,13 +26,13 @@ class BluetoothManager: NSObject {
 	var manager: CBCentralManager!
 	var peripheral: CBPeripheral?
 	var isConnecting = MutableProperty(false)
+	var isDeviceReady = MutableProperty(false)
 	var setAlarmTime: MutableProperty<AlarmComponents?> = MutableProperty(nil)
 
 	var peripheralCharacteristics = PeripheralCharacteristics()
 
-	/** ConnectionManager becomes ready when bluetooth is powered up **/
-	var isReady = false
-	fileprivate var bluetoothReady: (() -> Void)?
+	var isBluetoothReady = false
+	fileprivate var onBluetoothReady: (() -> Void)?
 
 	override init() {
 		super.init()
@@ -41,10 +41,10 @@ class BluetoothManager: NSObject {
 
 	func scanForPeripherals() {
 		self.isConnecting.value = true
-		if isReady {
+		if isBluetoothReady {
 			self.manager.scanForPeripherals(withServices: [lightsAdvertisedServiceIdentifierUUID], options: nil)
 		} else {
-			self.bluetoothReady = {
+			self.onBluetoothReady = {
 				self.manager.scanForPeripherals(withServices: [lightsAdvertisedServiceIdentifierUUID], options: nil)
 			}
 			
@@ -107,11 +107,11 @@ extension BluetoothManager: CBCentralManagerDelegate {
 		switch central.state {
 		case .poweredOff:
 			print("CoreBluetooth BLE hardware is powered off")
-			self.isReady = false
+			self.isBluetoothReady = false
 		case .poweredOn:
 			print("CoreBluetooth BLE hardware is powered on and ready")
-			self.isReady = true
-			self.bluetoothReady?()
+			self.isBluetoothReady = true
+			self.onBluetoothReady?()
 		case .resetting:
 			print("CoreBluetooth BLE hardware is resetting")
 		case .unauthorized:
@@ -183,6 +183,7 @@ extension BluetoothManager: CBPeripheralDelegate {
 		let allCharacteristicsSet = !self.peripheralCharacteristics.allCharacteristics().contains{$0 == nil}
 		if allCharacteristicsSet {
 			self.isConnecting.value = false
+			self.isDeviceReady.value = true
 		}
 	}
 
@@ -212,6 +213,9 @@ extension BluetoothManager: CBPeripheralDelegate {
 	}
 
 	func peripheral(_ peripheral: CBPeripheral, didUpdateNotificationStateFor characteristic: CBCharacteristic, error: Error?) {
+		if characteristic.uuid == setAlarmCharacteristicUUID {
+			print("Notification updated for \(characteristic)")
+		}
 //		print("Notification state changed for characteristic: \(characteristic)")
 	}
 

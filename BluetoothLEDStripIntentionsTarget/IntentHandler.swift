@@ -17,7 +17,7 @@ import Intents
 // "<myApp> John saying hello"
 // "Search for messages in <myApp>"
 
-class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessagesIntentHandling, INSetMessageAttributeIntentHandling {
+class IntentHandler: INExtension, INSendMessageIntentHandling {
 
 	var alarmTime: (Int, Int)? = nil
 
@@ -104,7 +104,11 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
 				return
 			}
 			BluetoothManager.sharedInstance.scanForPeripherals()
-			completion(INStringResolutionResult.success(with: "Setting Alarm to \(alarmTime.0):\(alarmTime.1)"))
+			var responseText = "Setting Alarm to \(alarmTime.0)"
+			if alarmTime.1 > 0 {
+				responseText += ":\(alarmTime.1)"
+			}
+			completion(INStringResolutionResult.success(with: responseText))
 //			completion(INStringResolutionResult.success(with: text))
         } else {
             completion(INStringResolutionResult.needsValue())
@@ -127,53 +131,40 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
         // Implement your application logic to send a message here.
         let userActivity = NSUserActivity(activityType: NSStringFromClass(INSendMessageIntent.self))
         let response = INSendMessageIntentResponse(code: .success, userActivity: userActivity)
-		// TODO: HERE IS WHERE WE SEND THE COMMAND TO THE LIGHTS
-		BluetoothManager.sharedInstance.isConnecting.producer.startWithValues { isConnecting in
-			if !isConnecting {
-				BluetoothManager.sharedInstance.setColor(red: 50, green: 50, blue: 50)
-				BluetoothManager.sharedInstance.setBrightness(value: 100)
+		// HERE IS WHERE WE SEND THE COMMAND TO THE LIGHTS
+		BluetoothManager.sharedInstance.isDeviceReady.producer.startWithValues { isReady in
+			if isReady {
+				if let hour = self.alarmTime?.0, let minute = self.alarmTime?.1 {
+					BluetoothManager.sharedInstance.setAlarmTime(to: hour, minute: minute)
+					BluetoothManager.sharedInstance.setColor(red: 50, green: 50, blue: 50)
+					BluetoothManager.sharedInstance.setBrightness(value: 100)
+					completion(response)
+				} else {
+					let response = INSendMessageIntentResponse(code: INSendMessageIntentResponseCode.failureRequiringAppLaunch, userActivity: userActivity)
+					completion(response)
+				}
 			} else {
-				print("Is connecting to Bluetooth device")
+				print("Bluetooth device is not ready yet")
 			}
 		}
-
-        completion(response)
     }
     
     // Implement handlers for each intent you wish to handle.  As an example for messages, you may wish to also handle searchForMessages and setMessageAttributes.
-    
-    // MARK: - INSearchForMessagesIntentHandling
-    
-    func handle(searchForMessages intent: INSearchForMessagesIntent, completion: @escaping (INSearchForMessagesIntentResponse) -> Void) {
-        // Implement your application logic to find a message that matches the information in the intent.
-        
-        let userActivity = NSUserActivity(activityType: NSStringFromClass(INSearchForMessagesIntent.self))
-        let response = INSearchForMessagesIntentResponse(code: .success, userActivity: userActivity)
-        // Initialize with found message's attributes
-        response.messages = [INMessage(
-            identifier: "identifier",
-            content: "I am so excited about SiriKit!",
-            dateSent: Date(),
-            sender: INPerson(personHandle: INPersonHandle(value: "sarah@example.com", type: .emailAddress), nameComponents: nil, displayName: "Sarah", image: nil,  contactIdentifier: nil, customIdentifier: nil),
-            recipients: [INPerson(personHandle: INPersonHandle(value: "+1-415-555-5555", type: .phoneNumber), nameComponents: nil, displayName: "John", image: nil,  contactIdentifier: nil, customIdentifier: nil)]
-            )]
-        completion(response)
-    }
-    
-    // MARK: - INSetMessageAttributeIntentHandling
-    
-    func handle(setMessageAttribute intent: INSetMessageAttributeIntent, completion: @escaping (INSetMessageAttributeIntentResponse) -> Void) {
-        // Implement your application logic to set the message attribute here.
-        
-        let userActivity = NSUserActivity(activityType: NSStringFromClass(INSetMessageAttributeIntent.self))
-        let response = INSetMessageAttributeIntentResponse(code: .success, userActivity: userActivity)
-        completion(response)
-    }
 
 	// MARK: Helper functions
 	func extractNumbers(from string: String) -> [Int] {
+		var extractedNumbers: [Int] = []
+		// check if string contains digits (i.e. "set alarm to 8")
 		let component = string.components(separatedBy: NSCharacterSet.decimalDigits.inverted)
-		return component.filter({ $0 != "" }).flatMap { Int($0) }
+		extractedNumbers.append(contentsOf: component.filter({ $0 != "" }).flatMap { Int($0) })
+
+		// check if string contains numbers as words (i.e. "set alarm to eight")
+		for (index, numberWord) in numbersArray.enumerated() {
+			if string.range(of: numberWord) != nil {
+				extractedNumbers.append(index)
+			}
+		}
+		return extractedNumbers
 	}
 
 	func getTime(from firstNumber: Int, secondNumber: Int?) -> (Int, Int) {

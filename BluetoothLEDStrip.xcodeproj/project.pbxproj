@@ -24,6 +24,8 @@
 		A1F470B41E870A8F00461F71 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F470B31E870A8F00461F71 /* Motion.swift */; };
 		A1F6685C1ED08E710010AF67 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEB0311E7ED0D100355658 /* BluetoothManager.swift */; };
 		A1F6685E1ED0906A0010AF67 /* PeripheralConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEB0351E7EEEC500355658 /* PeripheralConstants.swift */; };
+		A1F668601ED0A2CE0010AF67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F6685F1ED0A2CE0010AF67 /* Constants.swift */; };
+		A1F668611ED0A3000010AF67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F6685F1ED0A2CE0010AF67 /* Constants.swift */; };
 		EC92DC2EC9AB0EB6EFBA3384 /* Pods_BluetoothLEDStripIntentionsTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31D5D5A243D39F3830149E5 /* Pods_BluetoothLEDStripIntentionsTarget.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,7 @@
 		A1BEB0371E7F038A00355658 /* Compass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compass.swift; sourceTree = "<group>"; };
 		A1F470B11E8701AA00461F71 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		A1F470B31E870A8F00461F71 /* Motion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		A1F6685F1ED0A2CE0010AF67 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E31D5D5A243D39F3830149E5 /* Pods_BluetoothLEDStripIntentionsTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluetoothLEDStripIntentionsTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,6 +141,7 @@
 				A1F470B31E870A8F00461F71 /* Motion.swift */,
 				A1BEB0311E7ED0D100355658 /* BluetoothManager.swift */,
 				A1BEB0351E7EEEC500355658 /* PeripheralConstants.swift */,
+				A1F6685F1ED0A2CE0010AF67 /* Constants.swift */,
 				A1F6685D1ED08E960010AF67 /* View Controllers */,
 				A1BEB0231E7ED01600355658 /* Main.storyboard */,
 				A1BEB0261E7ED01600355658 /* Assets.xcassets */,
@@ -382,6 +386,7 @@
 				A1F6685C1ED08E710010AF67 /* BluetoothManager.swift in Sources */,
 				A1F6685E1ED0906A0010AF67 /* PeripheralConstants.swift in Sources */,
 				A113FA0A1E8DE35E00B24090 /* IntentHandler.swift in Sources */,
+				A1F668611ED0A3000010AF67 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +399,7 @@
 				A1BEB01E1E7ED01600355658 /* AppDelegate.swift in Sources */,
 				A1F470B41E870A8F00461F71 /* Motion.swift in Sources */,
 				A1BEB0381E7F038A00355658 /* Compass.swift in Sources */,
+				A1F668601ED0A2CE0010AF67 /* Constants.swift in Sources */,
 				A1BEB0321E7ED0D100355658 /* BluetoothManager.swift in Sources */,
 				A1F470B21E8701AA00461F71 /* ThirdViewController.swift in Sources */,
 				A1750DCB1E872A5400559BDE /* MyTabBarViewController.swift in Sources */,
