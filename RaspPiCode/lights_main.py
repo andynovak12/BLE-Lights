@@ -4,6 +4,7 @@ import dbus
 import dbus.exceptions
 import dbus.mainloop.glib
 import dbus.service
+import time
 
 from lights_ble_base import *
 import LEDController
@@ -286,6 +287,8 @@ def register_app_error_cb(error):
 
 def main():
     global mainloop
+
+	time.sleep(5)
 
     dbus.mainloop.glib.DBusGMainLoop(set_as_default=True)
 
